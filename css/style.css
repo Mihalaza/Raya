@@ -1,0 +1,61 @@
+/* Reset */
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,italic,500,500italic,700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #eeeff0;
+  font-family: roboto;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+/*header*/
+.header {
+  display: flex;
+  max-width: 1400px;
+  margin: 1vw;
+  padding: 1vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+.logo-image {
+  width: 15vw;
+  max-width: none;
+}
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 1vw;
+}
+.nav-link {
+  display: flex;
+  padding-top: 0.5vw;
+  padding-right: 1vw;
+  padding-bottom: 0.5vw;
+  padding-left: 1vw;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 0.2vw;
+  border-color: black;
+  border-radius: 2vw;
+  background-color: #b7c0c2;
+}
+.nav-link-paragraph {
+  margin-bottom: 0px;
+  font-size: 2vw;
+  line-height: 2vw;
+  font-weight: 700;
+}

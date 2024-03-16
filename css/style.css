@@ -1,0 +1,18 @@
+/* Reset */
+@import url("reset.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #eeeff0;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}

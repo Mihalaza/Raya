@@ -23,7 +23,7 @@ body {
 .header {
   display: flex;
   max-width: 1400px;
-  margin: 1vw;
+  margin: 1vw 1.39vw;
   padding: 1vw;
   flex-direction: row;
   justify-content: space-between;

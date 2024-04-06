@@ -59,3 +59,29 @@ body {
   line-height: 2vw;
   font-weight: 700;
 }
+/*main*/
+
+/*hero-section*/
+.hero-section {
+  display: flex;
+  max-width: 1400px;
+  margin: 1vw 1.39vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.hero-heading {
+  font-size: 4vw;
+  line-height: 4vw;
+  text-align: center;
+  font-weight: 700;
+}
+.hero-paragraph {
+  font-size: 1.67vw;
+  line-height: 1.67vw;
+  text-align: justify;
+}
+.hero-image {
+  width: 100%;
+}

@@ -85,3 +85,31 @@ body {
 .hero-image {
   width: 100%;
 }
+
+/*interesting-facts section*/
+.interesting-facts {
+  max-width: 1400px;
+  margin: 1vw 1.39vw;
+ 
+}
+.interesting-facts-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.interesting-facts-card{
+  width: 20vw;
+  max-width: 300px;
+}
+.interesting-facts-card-img{
+  width: 100%;
+}
+.interesting-facts-card-heading{
+  text-align: center;
+  height: 6vw;
+  max-height: 87px;
+}
+.interesting-facts-card-paragraph{
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}

@@ -2,6 +2,26 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,italic,500,500italic,700&display=swap");
 
+h1{
+  font-size: 4vw; 
+  font-weight: 700;
+  line-height: 4vw;
+}
+h2{
+  font-size: 3vw; 
+  font-weight: 700;
+  line-height: 3vw;
+}
+h3{
+  font-size: 2vw; 
+  font-weight: 700;
+  line-height: 2vw;
+}
+p{
+  font-size: 1.67vw;
+  line-height: 1.67vw;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -70,16 +90,14 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2vw;
+  padding-bottom: 2vw;
 }
 .hero-heading {
-  font-size: 4vw;
-  line-height: 4vw;
   text-align: center;
-  font-weight: 700;
+ 
 }
 .hero-paragraph {
-  font-size: 1.67vw;
-  line-height: 1.67vw;
+
   text-align: justify;
 }
 .hero-image {
@@ -98,18 +116,24 @@ body {
   justify-content: space-between;
 }
 .interesting-facts-card{
-  width: 20vw;
-  max-width: 300px;
+  border-color: black;
+  border: 0.2vw;
+  border-style: solid;
+  border-radius: 1vw;
+  width: 22vw;
+  max-width: 320px;
 }
 .interesting-facts-card-img{
   width: 100%;
 }
 .interesting-facts-card-heading{
+  margin: 0.5vw;
   text-align: center;
-  height: 6vw;
-  max-height: 87px;
+  height: 8vw;
+
 }
 .interesting-facts-card-paragraph{
+  margin: 0.5vw;
   margin-top: 1vw;
   margin-bottom: 1vw;
 }

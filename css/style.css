@@ -108,31 +108,33 @@ body {
 .interesting-facts {
   max-width: 1400px;
   margin: 1vw 1.39vw;
- 
 }
-.interesting-facts-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
+.interesting-facts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5vw 5vw;
 }
-.interesting-facts-card{
+
+.interesting-facts-card {
   border-color: black;
   border: 0.2vw;
   border-style: solid;
   border-radius: 1vw;
-  width: 22vw;
-  max-width: 320px;
+  max-width: 100%;
 }
-.interesting-facts-card-img{
+
+.interesting-facts-card-img {
   width: 100%;
 }
-.interesting-facts-card-heading{
+
+.interesting-facts-card-heading {
   margin: 0.5vw;
   text-align: center;
-  height: 8vw;
-
+  height: 5vw;
 }
-.interesting-facts-card-paragraph{
+
+.interesting-facts-card-paragraph {
   margin: 0.5vw;
   margin-top: 1vw;
   margin-bottom: 1vw;

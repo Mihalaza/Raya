@@ -30,6 +30,7 @@ body {
   align-items: center;
   background-color: #eeeff0;
   font-family: roboto;
+  padding: 0 3vw;
 }
 .wrapper {
   display: flex;
@@ -43,7 +44,7 @@ body {
 .header {
   display: flex;
   max-width: 1400px;
-  margin: 1vw 1.39vw;
+  margin: 1vw 0;
   padding: 1vw;
   flex-direction: row;
   justify-content: space-between;
@@ -85,7 +86,7 @@ body {
 .hero-section {
   display: flex;
   max-width: 1400px;
-  margin: 1vw 1.39vw;
+  margin: 1vw 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -107,7 +108,7 @@ body {
 /*interesting-facts section*/
 .interesting-facts {
   max-width: 1400px;
-  margin: 1vw 1.39vw;
+  margin: 1vw 0;
 }
 
 .interesting-facts-container {

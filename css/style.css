@@ -195,3 +195,11 @@ body {
 .ages-button:hover {
   background-color: #868d8e; 
 }
+.footer {
+  display: flex;
+  margin: 1vw 0;
+  padding: 1vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
